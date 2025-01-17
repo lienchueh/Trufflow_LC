@@ -1,0 +1,300 @@
+.application-card {
+    align-items: flex-start;
+    background-color: var(--neutral-100);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.application-card .wrapper {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    position: relative;
+}
+
+.application-card .content {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 5px;
+    padding: 10px;
+    position: relative;
+}
+
+.application-card .name-description {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 2px;
+    position: relative;
+    width: 100%;
+}
+
+.application-card .div {
+    align-items: center;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.application-card .title {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    position: relative;
+    width: 141px;
+}
+
+.application-card .text-wrapper {
+    color: var(--neutral-800);
+    flex: 1;
+    font-family: var(--rich-text-headings-h6-font-family);
+    font-size: var(--rich-text-headings-h6-font-size);
+    font-style: var(--rich-text-headings-h6-font-style);
+    font-weight: var(--rich-text-headings-h6-font-weight);
+    letter-spacing: var(--rich-text-headings-h6-letter-spacing);
+    line-height: var(--rich-text-headings-h6-line-height);
+    margin-top: -1px;
+    position: relative;
+}
+
+.application-card .label {
+    align-items: center;
+    border-radius: 2.32px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 3.47px;
+    padding: 0px 2.32px;
+    position: relative;
+}
+
+.application-card .ellipse {
+    background-color: #20cb57;
+    border-radius: 3.47px;
+    height: 6.95px;
+    position: relative;
+    width: 6.95px;
+}
+
+.application-card .text-wrapper-2 {
+    color: #20cb57;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-size: 11.6px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.16px;
+    position: relative;
+    width: fit-content;
+}
+
+.application-card .lorem-ipsum-dolor {
+    color: var(--neutral-600);
+    flex: 1;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+}
+
+.application-card .details {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 0px;
+    position: relative;
+}
+
+.application-card .row {
+    align-items: flex-start;
+    align-self: stretch;
+    border-radius: 10px;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 15px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.application-card .text-wrapper-3 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: var(--neutral-600);
+    display: -webkit-box;
+    font-family: "DM Sans-SemiBold", Helvetica;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    width: 100px;
+}
+
+.application-card .field-value {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    width: 150px;
+}
+
+.application-card .elements-user {
+    height: 20px !important;
+    position: relative !important;
+    width: 20px !important;
+}
+
+.application-card .text-wrapper-4 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    color: var(--neutral-600);
+    display: -webkit-box;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    width: fit-content;
+}
+
+.application-card .text-wrapper-5 {
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    align-self: stretch;
+    color: var(--neutral-600);
+    display: -webkit-box;
+    font-family: "DM Sans-Regular", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1px;
+    overflow: hidden;
+    position: relative;
+    text-overflow: ellipsis;
+    width: 181px;
+}
+
+.application-card .label-tags {
+    align-items: center;
+    align-self: stretch;
+    border-color: var(--neutral-300);
+    border-top-style: solid;
+    border-top-width: 0.4px;
+    display: flex;
+    flex: 0 0 auto;
+    justify-content: space-between;
+    padding: 5px 10px;
+    position: relative;
+    width: 100%;
+}
+
+.application-card .stats {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 5px;
+    position: relative;
+}
+
+.application-card .stat {
+    align-items: center;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 5px;
+    padding: 0px 5px;
+    position: relative;
+}
+
+.application-card .img {
+    height: 15px;
+    position: relative;
+    width: 15px;
+}
+
+.application-card .text-wrapper-6 {
+    color: var(--neutral-600);
+    font-family: "DM Sans-Light", Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.75px;
+    position: relative;
+    width: fit-content;
+}
+
+.application-card .div-2 {
+    color: var(--neutral-600);
+    font-family: "DM Sans-Light", Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -0.75px;
+    position: relative;
+    text-align: right;
+    width: fit-content;
+}
+
+.application-card .span {
+    color: #4b5563;
+    font-family: "DM Sans-Light", Helvetica;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.application-card .text-wrapper-7 {
+    font-size: 10px;
+}
+
+.application-card .label-2 {
+    align-items: center;
+    border-radius: 2.31px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    gap: 3.46px;
+    justify-content: center;
+    padding: 0px 2.31px;
+    position: relative;
+}
+
+.application-card .material-symbols {
+    height: 11.54px;
+    position: relative;
+    width: 11.54px;
+}
+
+.application-card .text-wrapper-8 {
+    color: #129deb;
+    font-family: "DM Sans-Medium", Helvetica;
+    font-size: 11.5px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-top: -1.15px;
+    position: relative;
+    width: fit-content;
+}
